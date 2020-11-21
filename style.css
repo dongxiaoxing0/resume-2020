@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 16px/1.5 SimSun, STKaiti, "Microsoft YaHei", SimHei, Helvetica, Arial;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+.wrapper {
+    margin-top: 30px 60px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1380px;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+main {
+    background-color: #ececec;
+    padding-top: 30px;
+    margin: 25px 80px;
+    padding-bottom:30px;
+    max-width: 1100px;
+}
+
+main>.left {
+    float: left;
+    width: 280px;
+    /* overflow: hidden; */
+}
+
+main>.left>.name {
+    text-align: center;
+}
+
+main>.left>.name>hr {
+    width: 80px;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+main>.left>.name>p {
+    margin-bottom: 20px;
+}
+
+main>.left>.name>.triangle {
+    width: 0;
+    height: 0;
+    border-right: 280px solid #d6d6d6;
+    border-bottom: 40px solid transparent;
+}
+
+main>.left>.contact {
+    margin: 20px;
+}
+
+main>.left>.contact>li {
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 3px;
+}
+
+main>.left>.contact>li>span {
+    display: inline-block;
+    padding: 10px;
+}
+
+main>.left>.contact>li>span:nth-child(2) {
+    border-left: 1px solid #d6d6d6;
+}
+
+main>.left>.skills {
+    background-color: #7bbaaa;
+    color: white;
+    padding: 15px;
+}
+
+main>.left>.skills>ul {
+
+}
+
+main>.left>.skills>ul>li {
+    padding: 5px;
+}
+
+main>.left>.skills>ul>li>.progress {
+    width: 100%;
+    height: 3px;
+    background-color: #74c5b5;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+main>.left>.skills>ul>li>.progress>.progress-bar {
+    background-color: white;
+    height: 4px;
+    border-radius: 3px;
+}
+
+main>.left>.others {
+    margin: 20px;
+}
+
+main>.left>.others>ul>li {
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 3px;
+}
+
+main>.left>.others>ul>li>span {
+    display: inline-block;
+    padding: 10px;
+}
+
+main>.left>.others>ul>li>span:nth-child(2) {
+    border-left: 1px solid #d6d6d6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main>.right {
+    margin-left: 280px;
+    background-color: #fff;
+    padding-left: 30px;
+    margin-right: 20px;
+}
+main > .right  h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+main>.right>.introduction {
+    padding: 30px;
+}
+main>.right>.introduction > img{
+    float: left;
+}
+main>.right>.introduction > p{
+    margin-left: 120px;
+}
+main > .right > .education,
+main > .right > .projects{
+    margin-top: 20px;
+}
+main > .right > .education > .duration,
+main > .right > .projects > .duration{
+    float: left;
+    width: 140px;
+    padding-left: 5px;
+}
+.pills{
+    display: inline-block;
+    margin-top: 5px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    font-size: 14px;
+} 
+
+main > .right > .education > .content-wrapper > .content,
+main > .right > .projects > .content-wrapper > .content{
+    position: relative;
+    margin-left: 150px;
+    border-left: 1px solid #eeeeee;
+    padding-left:25px;
+}
+.circle{
+    position: absolute;
+    top:12px;
+    left: -6px;
+    border-radius: 50%;
+    background-color: #7bbaaa;
+    width: 12px;
+    height: 12px;
+}
+.inner-circle{
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    position: absolute;
+    top: 15px;
+    left: -3px;
+}
+main > .right ol{
+    padding-left:10px;
+}
+main > .right ol > li{
+    list-style: outside;
+    color:#959595;
+}
