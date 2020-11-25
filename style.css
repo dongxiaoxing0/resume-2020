@@ -130,29 +130,6 @@ main>.left>.others>ul>li>span:nth-child(2) {
     border-left: 1px solid #d6d6d6;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 main>.right {
     margin-left: 280px;
     background-color: #fff;
@@ -177,6 +154,9 @@ main>.right>.introduction > p{
 main > .right > .education,
 main > .right > .projects{
     margin-top: 20px;
+}
+main > .right > .projects > h2{
+    padding-top: 20px;
 }
 main > .right > .education > .duration,
 main > .right > .projects > .duration{
